@@ -1,3 +1,5 @@
+package travel.office.service;
+
 public class Customer
 {
     private String name;
@@ -27,6 +29,6 @@ public class Customer
     @Override
     public String toString()
     {
-        return "\nCustomer info:\nName: " + name + "\nAddress: " + address.toString() + "\nTrip: " + trip.toString() + "\n";
+        return "\ntravel.office.service.Customer info:\nName: " + name + "\ntravel.office.service.Address: " + address.toString() + "\nTrip: " + trip.toString() + "\n";
     }
 }

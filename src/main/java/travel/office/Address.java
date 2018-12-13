@@ -1,3 +1,5 @@
+package travel.office.service;
+
 public class Address
 {
     private String street;

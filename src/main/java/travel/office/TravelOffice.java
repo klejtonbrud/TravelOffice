@@ -1,8 +1,10 @@
+package travel.office.service;
+
 import java.util.*;
 
 public class TravelOffice
 {
-    Collection<Customer> customers = new HashSet<>();
+    private Collection<Customer> customers = new HashSet<>();
 
     public int getCustomerCount()
     {
@@ -90,7 +92,7 @@ public class TravelOffice
     @Override
     public String toString()
     {
-        return "\nTravelOffice{" +
+        return "\ntravel.office.service.TravelOffice{" +
                 "customers=" + getAllCustomers() +
                 ", trips=" + getAllTrips() +
                 '}';

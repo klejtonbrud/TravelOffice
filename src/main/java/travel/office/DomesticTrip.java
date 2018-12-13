@@ -1,3 +1,5 @@
+package travel.office.service;
+
 public class DomesticTrip extends Trip
 {
     private double ownArrivalDiscount;

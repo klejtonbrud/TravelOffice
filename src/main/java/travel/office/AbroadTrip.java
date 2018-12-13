@@ -1,3 +1,5 @@
+package travel.office.service;
+
 public class AbroadTrip extends Trip
 {
     private double insurance;

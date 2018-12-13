@@ -1,3 +1,5 @@
+package travel.office.service;
+
 abstract class Trip
 {
     private Date start;

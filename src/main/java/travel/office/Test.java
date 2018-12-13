@@ -1,4 +1,4 @@
-package travel.office.service;
+package travel.office;
 
 public class Test
 {

@@ -1,4 +1,4 @@
-package travel.office.service;
+package travel.office;
 
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class TravelOffice
     @Override
     public String toString()
     {
-        return "\ntravel.office.service.TravelOffice{" +
+        return "\ntravel.office.TravelOffice{" +
                 "customers=" + getAllCustomers() +
                 ", trips=" + getAllTrips() +
                 '}';
